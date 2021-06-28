@@ -86,7 +86,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "@tailwindcss/ui": "^0.3.0",
+    "@tailwindcss/ui": "^0.7.2",
     "ansi_up": "^4.0.4",
     "lodash-es": "^4.17.15",
     "socket.io-client": "^2.3.0",
