@@ -78,7 +78,7 @@
     "in-publish": "^2.0.0",
     "lodash": "^4.14.0",
     "method-override": "^3.0.0",
-    "mongoose": "^5.9.0",
+    "mongoose": "^6.0.4",
     "morgan": "^1.5.0",
     "morgan-debug": "^2.0.0",
     "node-rsa": "^0.4.0",
