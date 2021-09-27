@@ -88,7 +88,7 @@
     "passport-local": "^1.0.0",
     "path-to-regexp": "^1.0.2",
     "prompt": "^1.0.0",
-    "pug": "^2.0.0-beta4",
+    "pug": "^3.0.1",
     "pw": "0.0.4",
     "rc": "^1.0.3",
     "request": "^2.81.0",
