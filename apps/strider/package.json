@@ -44,7 +44,9 @@
     "debug": "node --inspect bin/strider --no-cluster",
     "prerelease": "npm run build:lib",
     "release": "git add dist/ dist-lib/ && standard-version -a",
-    "postinstall": "opencollective postinstall"
+    "postinstall": "opencollective postinstall",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@strider/webhooks": "^0.1.7",
@@ -123,9 +125,9 @@
     "swig": "^0.14.0",
     "thirty-two": "^1.0.1",
     "touch": "^3.1.0",
-    "standard-version": ">=8.0.1",
     "validator": "^7.0.0",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -134,7 +136,7 @@
     "@types/express-session": "^1.17.0",
     "@types/lodash": "^4.14.149",
     "@types/mongoose": "^5.7.0",
-    "standard-version": ">=8.0.1",
+    "standard-version": "^7.1.0",
     "@types/shelljs": "^0.8.6",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
@@ -156,7 +158,6 @@
     "prettier": "^2.0.4",
     "shelljs": "^0.8.3",
     "sinon": "^7.3.2",
-    "standard-version": "^7.1.0",
     "surge": "^0.21.3",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3",
@@ -166,5 +167,6 @@
     "type": "opencollective",
     "url": "https://opencollective.com/strider",
     "logo": "https://opencollective.com/opencollective/logo.txt"
-  }
+  },
+  "snyk": true
 }
