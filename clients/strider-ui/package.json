@@ -92,7 +92,7 @@
     "socket.io-client": "^2.3.0",
     "ansi_up": ">=5.0.0",
     "strip-ansi": "^6.0.0",
-    "tracked-toolbox": "^1.0.1"
+    "tracked-toolbox": "^2.0.0"
   },
   "volta": {
     "node": "10.13.0",
